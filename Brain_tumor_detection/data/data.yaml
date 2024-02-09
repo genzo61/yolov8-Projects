@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Brain_tumor_detection/data/brain_dataset/images/train 
+val: /content/drive/MyDrive/Brain_tumor_detection/data/brain_dataset/images/val
+test: /content/drive/MyDrive/Brain_tumor_detection/data/brain_dataset/images/test
+
+nc: 1
+names: ['object']
+
+roboflow:
+  workspace: celebal-p3kbm
+  project: tumor-detection-j9mqs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/celebal-p3kbm/tumor-detection-j9mqs/dataset/1
